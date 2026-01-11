@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data - exclude large data files (keep structure)
+data/Audio/
+data/Lyrics/
+# Keep directory structure if needed
+!data/.gitkeep
+
+# Results - include results for project submission
+# Uncomment below if you want to exclude results (they can be regenerated)
+# results/*.png
+# results/*.csv
+# results/*.pth
+# results/latent_visualization/*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+# Exclude compiled PDFs except project details
+*.pdf
+!NeuralNetworkProjectDetails.pdf
